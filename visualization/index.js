@@ -40,7 +40,8 @@ var data_ = [];
 var idArray = {};
 var globalArray = {};
 var typearray = [];
- d3.csv("visualization/data.csv", function(dataCSV){
+ d3.csv("visualization/data2.csv", function(dataCSV){
+   // console.log(dataCSV)
    // d3.csv("data - Copy - Copy.csv", function(dataCSV){
    delete dataCSV['2D First'];
    delete dataCSV['Order']
