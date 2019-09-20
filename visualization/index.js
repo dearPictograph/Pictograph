@@ -226,18 +226,18 @@ function launchViz(data){
          .attr('width', 20)
          .attr('height', 20)
          .attr("xlink:href", function(d,i){
-            console.log(d.type.split('-')[0])
-            if (d.type == "Not Enjoy - any verbal expression/word of non-enjoyment (sigh, frustration, dislike, uncomfort)")  return  "visualization/images/unejoy.png";
-            if (d.type == "Personal - Making it personal")  return  "visualization/images/personnal.png";
-            if (d.type == "World - Reference to the Real World") return  "visualization/images/earth.png";
-            if (d.type.split('-')[0] == "Enjoy ") return "visualization/images/enjoy.png";
-            if (d.type.split('-')[0] == "Challenging ") return "visualization/images/challenging.png";
-            if (d.type.split('-')[0] == "Aesthetics") return "visualization/images/aesthetic.png";
+            // console.log(d.type.split('-')[0])
+            // if (d.type == "Not Enjoy - any verbal expression/word of non-enjoyment (sigh, frustration, dislike, uncomfort)")  return  "visualization/images/unejoy.png";
+            // if (d.type == "Personal - Making it personal")  return  "visualization/images/personnal.png";
+            // if (d.type == "World - Reference to the Real World") return  "visualization/images/earth.png";
+            // if (d.type.split('-')[0] == "Enjoy ") return "visualization/images/enjoy.png";
+            // if (d.type.split('-')[0] == "Challenging ") return "visualization/images/challenging.png";
+            // if (d.type.split('-')[0] == "Aesthetics") return "visualization/images/aesthetic.png";
 
 
-            if (d.type == "Perception - about different ways they perceive the pictograph or shape or 2d or vr") return "visualization/images/perception.png";
-            if (d.type == "Senses - Referece to Physical Senses") return "visualization/images/senses.png";
-            else return  "visualization/images/avatar.png";
+            // if (d.type == "Perception - about different ways they perceive the pictograph or shape or 2d or vr") return "visualization/images/perception.png";
+            // if (d.type == "Senses - Referece to Physical Senses") return "visualization/images/senses.png";
+            return  "visualization/images/avatar.png";
             // console.log(d)
             
 
